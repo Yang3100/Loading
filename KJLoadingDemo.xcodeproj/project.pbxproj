@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6805B37F25184188004EEECA /* UIView+KJLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = 6805B37E25184188004EEECA /* UIView+KJLoading.m */; };
+		680EE7EE224DE25E003C1822 /* KJCircleStrokeSpin.m in Sources */ = {isa = PBXBuildFile; fileRef = 680EE7ED224DE25E003C1822 /* KJCircleStrokeSpin.m */; };
+		68218B092249CD9E007A5422 /* KJLoadingDeploy.m in Sources */ = {isa = PBXBuildFile; fileRef = 68218AF62249CD9E007A5422 /* KJLoadingDeploy.m */; };
+		68218B0A2249CD9E007A5422 /* KJLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = 68218AF72249CD9E007A5422 /* KJLoading.m */; };
+		68218B0B2249CD9E007A5422 /* KJTwoDots.m in Sources */ = {isa = PBXBuildFile; fileRef = 68218AFC2249CD9E007A5422 /* KJTwoDots.m */; };
+		68218B0C2249CD9E007A5422 /* KJLineScalePulseOut.m in Sources */ = {isa = PBXBuildFile; fileRef = 68218AFE2249CD9E007A5422 /* KJLineScalePulseOut.m */; };
+		68218B0D2249CD9E007A5422 /* KJTurnedAround.m in Sources */ = {isa = PBXBuildFile; fileRef = 68218AFF2249CD9E007A5422 /* KJTurnedAround.m */; };
+		68218B0E2249CD9E007A5422 /* KJThreeDots.m in Sources */ = {isa = PBXBuildFile; fileRef = 68218B002249CD9E007A5422 /* KJThreeDots.m */; };
+		68218B0F2249CD9E007A5422 /* KJBallClipRotate.m in Sources */ = {isa = PBXBuildFile; fileRef = 68218B032249CD9E007A5422 /* KJBallClipRotate.m */; };
+		68218B102249CD9E007A5422 /* KJOutwardWaves.m in Sources */ = {isa = PBXBuildFile; fileRef = 68218B052249CD9E007A5422 /* KJOutwardWaves.m */; };
+		68218B112249CD9E007A5422 /* KJEatDoug.m in Sources */ = {isa = PBXBuildFile; fileRef = 68218B072249CD9E007A5422 /* KJEatDoug.m */; };
+		68218B142249CDEB007A5422 /* KJWritingEffect.m in Sources */ = {isa = PBXBuildFile; fileRef = 68218B132249CDEB007A5422 /* KJWritingEffect.m */; };
+		68218B192249F0A3007A5422 /* KJLoveHeart.m in Sources */ = {isa = PBXBuildFile; fileRef = 68218B182249F0A3007A5422 /* KJLoveHeart.m */; };
+		68218B1C224A01A9007A5422 /* KJElectrocardiogram.m in Sources */ = {isa = PBXBuildFile; fileRef = 68218B1B224A01A9007A5422 /* KJElectrocardiogram.m */; };
+		685E7DC5224DF43900275826 /* KJLoading.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 685E7DC4224DF43900275826 /* KJLoading.bundle */; };
+		6860DEE42256D6A6007C062D /* HUDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6860DEE32256D6A6007C062D /* HUDViewController.m */; };
+		6860DEE92256D894007C062D /* KJProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 6860DEE82256D894007C062D /* KJProgressHUD.m */; };
+		6860DEEC2256D929007C062D /* KJProgressDeploy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6860DEEB2256D929007C062D /* KJProgressDeploy.m */; };
+		6860DEEF225710A6007C062D /* KJProgressRight.m in Sources */ = {isa = PBXBuildFile; fileRef = 6860DEEE225710A6007C062D /* KJProgressRight.m */; };
+		686D10A9224A0F3F003F219C /* KJPlayImages.m in Sources */ = {isa = PBXBuildFile; fileRef = 686D10A8224A0F3F003F219C /* KJPlayImages.m */; };
+		689748462248C6C9000B42D8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 689748452248C6C9000B42D8 /* AppDelegate.m */; };
+		689748492248C6C9000B42D8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 689748482248C6C9000B42D8 /* ViewController.m */; };
+		6897484C2248C6C9000B42D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6897484A2248C6C9000B42D8 /* Main.storyboard */; };
+		6897484E2248C6CB000B42D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6897484D2248C6CB000B42D8 /* Assets.xcassets */; };
+		689748512248C6CB000B42D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6897484F2248C6CB000B42D8 /* LaunchScreen.storyboard */; };
+		689748542248C6CB000B42D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 689748532248C6CB000B42D8 /* main.m */; };
+		68B571692248DE7000C69A75 /* KJCustom.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B571682248DE7000C69A75 /* KJCustom.m */; };
+		68C43A7923050F17002EEC05 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 68C43A7723050F17002EEC05 /* README.md */; };
+		68C43A7A23050F17002EEC05 /* KJLoading.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 68C43A7823050F17002EEC05 /* KJLoading.podspec */; };
+		68E367C6224DB2470072AC22 /* KJHourGlass.m in Sources */ = {isa = PBXBuildFile; fileRef = 68E367C5224DB2470072AC22 /* KJHourGlass.m */; };
+		68E367C9224DC2CC0072AC22 /* KJMalpositionRotate.m in Sources */ = {isa = PBXBuildFile; fileRef = 68E367C8224DC2CC0072AC22 /* KJMalpositionRotate.m */; };
+		68E367CC224DC8CD0072AC22 /* KJGradientSnake.m in Sources */ = {isa = PBXBuildFile; fileRef = 68E367CB224DC8CD0072AC22 /* KJGradientSnake.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6805B37D25184188004EEECA /* UIView+KJLoading.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+KJLoading.h"; sourceTree = "<group>"; };
+		6805B37E25184188004EEECA /* UIView+KJLoading.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+KJLoading.m"; sourceTree = "<group>"; };
+		680E87D024DCEEA300F22C73 /* KJLoadingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KJLoadingHeader.h; sourceTree = "<group>"; };
+		680EE7EC224DE25E003C1822 /* KJCircleStrokeSpin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KJCircleStrokeSpin.h; sourceTree = "<group>"; };
+		680EE7ED224DE25E003C1822 /* KJCircleStrokeSpin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KJCircleStrokeSpin.m; sourceTree = "<group>"; };
+		68218AF62249CD9E007A5422 /* KJLoadingDeploy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJLoadingDeploy.m; sourceTree = "<group>"; };
+		68218AF72249CD9E007A5422 /* KJLoading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJLoading.m; sourceTree = "<group>"; };
+		68218AF82249CD9E007A5422 /* KJLoadingDeploy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJLoadingDeploy.h; sourceTree = "<group>"; };
+		68218AF92249CD9E007A5422 /* KJLoading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJLoading.h; sourceTree = "<group>"; };
+		68218AFB2249CD9E007A5422 /* KJBallClipRotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJBallClipRotate.h; sourceTree = "<group>"; };
+		68218AFC2249CD9E007A5422 /* KJTwoDots.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJTwoDots.m; sourceTree = "<group>"; };
+		68218AFD2249CD9E007A5422 /* KJOutwardWaves.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJOutwardWaves.h; sourceTree = "<group>"; };
+		68218AFE2249CD9E007A5422 /* KJLineScalePulseOut.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJLineScalePulseOut.m; sourceTree = "<group>"; };
+		68218AFF2249CD9E007A5422 /* KJTurnedAround.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJTurnedAround.m; sourceTree = "<group>"; };
+		68218B002249CD9E007A5422 /* KJThreeDots.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJThreeDots.m; sourceTree = "<group>"; };
+		68218B012249CD9E007A5422 /* KJEatDoug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJEatDoug.h; sourceTree = "<group>"; };
+		68218B022249CD9E007A5422 /* KJTwoDots.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJTwoDots.h; sourceTree = "<group>"; };
+		68218B032249CD9E007A5422 /* KJBallClipRotate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJBallClipRotate.m; sourceTree = "<group>"; };
+		68218B042249CD9E007A5422 /* KJLineScalePulseOut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJLineScalePulseOut.h; sourceTree = "<group>"; };
+		68218B052249CD9E007A5422 /* KJOutwardWaves.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJOutwardWaves.m; sourceTree = "<group>"; };
+		68218B062249CD9E007A5422 /* KJTurnedAround.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJTurnedAround.h; sourceTree = "<group>"; };
+		68218B072249CD9E007A5422 /* KJEatDoug.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJEatDoug.m; sourceTree = "<group>"; };
+		68218B082249CD9E007A5422 /* KJThreeDots.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJThreeDots.h; sourceTree = "<group>"; };
+		68218B122249CDEB007A5422 /* KJWritingEffect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KJWritingEffect.h; sourceTree = "<group>"; };
+		68218B132249CDEB007A5422 /* KJWritingEffect.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KJWritingEffect.m; sourceTree = "<group>"; };
+		68218B172249F0A3007A5422 /* KJLoveHeart.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KJLoveHeart.h; sourceTree = "<group>"; };
+		68218B182249F0A3007A5422 /* KJLoveHeart.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KJLoveHeart.m; sourceTree = "<group>"; };
+		68218B1A224A01A9007A5422 /* KJElectrocardiogram.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KJElectrocardiogram.h; sourceTree = "<group>"; };
+		68218B1B224A01A9007A5422 /* KJElectrocardiogram.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KJElectrocardiogram.m; sourceTree = "<group>"; };
+		685E7DC4224DF43900275826 /* KJLoading.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = KJLoading.bundle; sourceTree = "<group>"; };
+		6860DEE22256D6A6007C062D /* HUDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HUDViewController.h; sourceTree = "<group>"; };
+		6860DEE32256D6A6007C062D /* HUDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HUDViewController.m; sourceTree = "<group>"; };
+		6860DEE72256D894007C062D /* KJProgressHUD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KJProgressHUD.h; sourceTree = "<group>"; };
+		6860DEE82256D894007C062D /* KJProgressHUD.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KJProgressHUD.m; sourceTree = "<group>"; };
+		6860DEEA2256D929007C062D /* KJProgressDeploy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KJProgressDeploy.h; sourceTree = "<group>"; };
+		6860DEEB2256D929007C062D /* KJProgressDeploy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KJProgressDeploy.m; sourceTree = "<group>"; };
+		6860DEED225710A6007C062D /* KJProgressRight.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KJProgressRight.h; sourceTree = "<group>"; };
+		6860DEEE225710A6007C062D /* KJProgressRight.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KJProgressRight.m; sourceTree = "<group>"; };
+		686D10A7224A0F3F003F219C /* KJPlayImages.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KJPlayImages.h; sourceTree = "<group>"; };
+		686D10A8224A0F3F003F219C /* KJPlayImages.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KJPlayImages.m; sourceTree = "<group>"; };
+		689748412248C6C9000B42D8 /* KJLoadingDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KJLoadingDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		689748442248C6C9000B42D8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		689748452248C6C9000B42D8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		689748472248C6C9000B42D8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		689748482248C6C9000B42D8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6897484B2248C6C9000B42D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6897484D2248C6CB000B42D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		689748502248C6CB000B42D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		689748522248C6CB000B42D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		689748532248C6CB000B42D8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		68B571672248DE7000C69A75 /* KJCustom.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KJCustom.h; sourceTree = "<group>"; };
+		68B571682248DE7000C69A75 /* KJCustom.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KJCustom.m; sourceTree = "<group>"; };
+		68C43A7723050F17002EEC05 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		68C43A7823050F17002EEC05 /* KJLoading.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = KJLoading.podspec; sourceTree = SOURCE_ROOT; };
+		68E367C4224DB2470072AC22 /* KJHourGlass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KJHourGlass.h; sourceTree = "<group>"; };
+		68E367C5224DB2470072AC22 /* KJHourGlass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KJHourGlass.m; sourceTree = "<group>"; };
+		68E367C7224DC2CC0072AC22 /* KJMalpositionRotate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KJMalpositionRotate.h; sourceTree = "<group>"; };
+		68E367C8224DC2CC0072AC22 /* KJMalpositionRotate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KJMalpositionRotate.m; sourceTree = "<group>"; };
+		68E367CA224DC8CD0072AC22 /* KJGradientSnake.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KJGradientSnake.h; sourceTree = "<group>"; };
+		68E367CB224DC8CD0072AC22 /* KJGradientSnake.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KJGradientSnake.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6897483E2248C6C9000B42D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		68218AF52249CD9E007A5422 /* KJLoading */ = {
+			isa = PBXGroup;
+			children = (
+				680E87D024DCEEA300F22C73 /* KJLoadingHeader.h */,
+				68218AF92249CD9E007A5422 /* KJLoading.h */,
+				68218AF72249CD9E007A5422 /* KJLoading.m */,
+				68218AF82249CD9E007A5422 /* KJLoadingDeploy.h */,
+				68218AF62249CD9E007A5422 /* KJLoadingDeploy.m */,
+				6805B37D25184188004EEECA /* UIView+KJLoading.h */,
+				6805B37E25184188004EEECA /* UIView+KJLoading.m */,
+				685E7DC4224DF43900275826 /* KJLoading.bundle */,
+				68218AFA2249CD9E007A5422 /* Animations */,
+			);
+			path = KJLoading;
+			sourceTree = "<group>";
+		};
+		68218AFA2249CD9E007A5422 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				68218AFB2249CD9E007A5422 /* KJBallClipRotate.h */,
+				68218B032249CD9E007A5422 /* KJBallClipRotate.m */,
+				68218B012249CD9E007A5422 /* KJEatDoug.h */,
+				68218B072249CD9E007A5422 /* KJEatDoug.m */,
+				68218B042249CD9E007A5422 /* KJLineScalePulseOut.h */,
+				68218AFE2249CD9E007A5422 /* KJLineScalePulseOut.m */,
+				68218AFD2249CD9E007A5422 /* KJOutwardWaves.h */,
+				68218B052249CD9E007A5422 /* KJOutwardWaves.m */,
+				68218B082249CD9E007A5422 /* KJThreeDots.h */,
+				68218B002249CD9E007A5422 /* KJThreeDots.m */,
+				68218B062249CD9E007A5422 /* KJTurnedAround.h */,
+				68218AFF2249CD9E007A5422 /* KJTurnedAround.m */,
+				68218B022249CD9E007A5422 /* KJTwoDots.h */,
+				68218AFC2249CD9E007A5422 /* KJTwoDots.m */,
+				68218B122249CDEB007A5422 /* KJWritingEffect.h */,
+				68218B132249CDEB007A5422 /* KJWritingEffect.m */,
+				68218B172249F0A3007A5422 /* KJLoveHeart.h */,
+				68218B182249F0A3007A5422 /* KJLoveHeart.m */,
+				68218B1A224A01A9007A5422 /* KJElectrocardiogram.h */,
+				68218B1B224A01A9007A5422 /* KJElectrocardiogram.m */,
+				686D10A7224A0F3F003F219C /* KJPlayImages.h */,
+				686D10A8224A0F3F003F219C /* KJPlayImages.m */,
+				68E367C4224DB2470072AC22 /* KJHourGlass.h */,
+				68E367C5224DB2470072AC22 /* KJHourGlass.m */,
+				68E367C7224DC2CC0072AC22 /* KJMalpositionRotate.h */,
+				68E367C8224DC2CC0072AC22 /* KJMalpositionRotate.m */,
+				68E367CA224DC8CD0072AC22 /* KJGradientSnake.h */,
+				68E367CB224DC8CD0072AC22 /* KJGradientSnake.m */,
+				680EE7EC224DE25E003C1822 /* KJCircleStrokeSpin.h */,
+				680EE7ED224DE25E003C1822 /* KJCircleStrokeSpin.m */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		6860DEE52256D839007C062D /* KJProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				6860DEE62256D84A007C062D /* Animations */,
+				6860DEE72256D894007C062D /* KJProgressHUD.h */,
+				6860DEE82256D894007C062D /* KJProgressHUD.m */,
+				6860DEEA2256D929007C062D /* KJProgressDeploy.h */,
+				6860DEEB2256D929007C062D /* KJProgressDeploy.m */,
+			);
+			path = KJProgressHUD;
+			sourceTree = "<group>";
+		};
+		6860DEE62256D84A007C062D /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				6860DEED225710A6007C062D /* KJProgressRight.h */,
+				6860DEEE225710A6007C062D /* KJProgressRight.m */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		689748382248C6C9000B42D8 = {
+			isa = PBXGroup;
+			children = (
+				689748432248C6C9000B42D8 /* KJLoadingDemo */,
+				689748422248C6C9000B42D8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		689748422248C6C9000B42D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				689748412248C6C9000B42D8 /* KJLoadingDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		689748432248C6C9000B42D8 /* KJLoadingDemo */ = {
+			isa = PBXGroup;
+			children = (
+				6860DEE52256D839007C062D /* KJProgressHUD */,
+				68218AF52249CD9E007A5422 /* KJLoading */,
+				689748442248C6C9000B42D8 /* AppDelegate.h */,
+				689748452248C6C9000B42D8 /* AppDelegate.m */,
+				689748472248C6C9000B42D8 /* ViewController.h */,
+				689748482248C6C9000B42D8 /* ViewController.m */,
+				6860DEE22256D6A6007C062D /* HUDViewController.h */,
+				6860DEE32256D6A6007C062D /* HUDViewController.m */,
+				68B571672248DE7000C69A75 /* KJCustom.h */,
+				68B571682248DE7000C69A75 /* KJCustom.m */,
+				6897484A2248C6C9000B42D8 /* Main.storyboard */,
+				6897484D2248C6CB000B42D8 /* Assets.xcassets */,
+				6897484F2248C6CB000B42D8 /* LaunchScreen.storyboard */,
+				689748522248C6CB000B42D8 /* Info.plist */,
+				689748532248C6CB000B42D8 /* main.m */,
+				68C43A7823050F17002EEC05 /* KJLoading.podspec */,
+				68C43A7723050F17002EEC05 /* README.md */,
+			);
+			path = KJLoadingDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		689748402248C6C9000B42D8 /* KJLoadingDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 689748572248C6CB000B42D8 /* Build configuration list for PBXNativeTarget "KJLoadingDemo" */;
+			buildPhases = (
+				6897483D2248C6C9000B42D8 /* Sources */,
+				6897483E2248C6C9000B42D8 /* Frameworks */,
+				6897483F2248C6C9000B42D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KJLoadingDemo;
+			productName = KJLoadingDemo;
+			productReference = 689748412248C6C9000B42D8 /* KJLoadingDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		689748392248C6C9000B42D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "杨科军";
+				TargetAttributes = {
+					689748402248C6C9000B42D8 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 6897483C2248C6C9000B42D8 /* Build configuration list for PBXProject "KJLoadingDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 689748382248C6C9000B42D8;
+			productRefGroup = 689748422248C6C9000B42D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				689748402248C6C9000B42D8 /* KJLoadingDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6897483F2248C6C9000B42D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				685E7DC5224DF43900275826 /* KJLoading.bundle in Resources */,
+				689748512248C6CB000B42D8 /* LaunchScreen.storyboard in Resources */,
+				68C43A7923050F17002EEC05 /* README.md in Resources */,
+				68C43A7A23050F17002EEC05 /* KJLoading.podspec in Resources */,
+				6897484E2248C6CB000B42D8 /* Assets.xcassets in Resources */,
+				6897484C2248C6C9000B42D8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6897483D2248C6C9000B42D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68218B0E2249CD9E007A5422 /* KJThreeDots.m in Sources */,
+				689748492248C6C9000B42D8 /* ViewController.m in Sources */,
+				6805B37F25184188004EEECA /* UIView+KJLoading.m in Sources */,
+				68E367C6224DB2470072AC22 /* KJHourGlass.m in Sources */,
+				68B571692248DE7000C69A75 /* KJCustom.m in Sources */,
+				680EE7EE224DE25E003C1822 /* KJCircleStrokeSpin.m in Sources */,
+				68218B0A2249CD9E007A5422 /* KJLoading.m in Sources */,
+				6860DEEC2256D929007C062D /* KJProgressDeploy.m in Sources */,
+				68218B0B2249CD9E007A5422 /* KJTwoDots.m in Sources */,
+				68218B1C224A01A9007A5422 /* KJElectrocardiogram.m in Sources */,
+				6860DEE42256D6A6007C062D /* HUDViewController.m in Sources */,
+				686D10A9224A0F3F003F219C /* KJPlayImages.m in Sources */,
+				68218B0D2249CD9E007A5422 /* KJTurnedAround.m in Sources */,
+				68218B092249CD9E007A5422 /* KJLoadingDeploy.m in Sources */,
+				68E367C9224DC2CC0072AC22 /* KJMalpositionRotate.m in Sources */,
+				6860DEEF225710A6007C062D /* KJProgressRight.m in Sources */,
+				68218B142249CDEB007A5422 /* KJWritingEffect.m in Sources */,
+				68218B0F2249CD9E007A5422 /* KJBallClipRotate.m in Sources */,
+				6860DEE92256D894007C062D /* KJProgressHUD.m in Sources */,
+				68218B192249F0A3007A5422 /* KJLoveHeart.m in Sources */,
+				68218B112249CD9E007A5422 /* KJEatDoug.m in Sources */,
+				68E367CC224DC8CD0072AC22 /* KJGradientSnake.m in Sources */,
+				689748542248C6CB000B42D8 /* main.m in Sources */,
+				68218B102249CD9E007A5422 /* KJOutwardWaves.m in Sources */,
+				689748462248C6C9000B42D8 /* AppDelegate.m in Sources */,
+				68218B0C2249CD9E007A5422 /* KJLineScalePulseOut.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6897484A2248C6C9000B42D8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6897484B2248C6C9000B42D8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6897484F2248C6CB000B42D8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				689748502248C6CB000B42D8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		689748552248C6CB000B42D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		689748562248C6CB000B42D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		689748582248C6CB000B42D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6E658L6H38;
+				INFOPLIST_FILE = KJLoadingDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yangkejun.KJLoadingDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		689748592248C6CB000B42D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6E658L6H38;
+				INFOPLIST_FILE = KJLoadingDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yangkejun.KJLoadingDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6897483C2248C6C9000B42D8 /* Build configuration list for PBXProject "KJLoadingDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				689748552248C6CB000B42D8 /* Debug */,
+				689748562248C6CB000B42D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		689748572248C6CB000B42D8 /* Build configuration list for PBXNativeTarget "KJLoadingDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				689748582248C6CB000B42D8 /* Debug */,
+				689748592248C6CB000B42D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 689748392248C6C9000B42D8 /* Project object */;
+}
